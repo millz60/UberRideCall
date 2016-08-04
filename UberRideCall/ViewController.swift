@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         successfullyAddedLabel.hidden = true
         rideIsScheduledLabel.hidden = true
         rideTimeLabel.hidden = true
+        
 
     
     }
@@ -56,6 +57,8 @@ class ViewController: UIViewController {
         dateFormatter.dateStyle = .LongStyle
         dateFormatter.timeStyle = .ShortStyle
         rideTimeLabel.text = dateFormatter.stringFromDate(datePicker.date)
+        
+        AZNotification.showNotificationWithTitle("Success", controller: self, notificationType: .Success, shouldShowNotificationUnderNavigationBar: true)
         
         
         notification.alertTitle = "Uber Ready!"
