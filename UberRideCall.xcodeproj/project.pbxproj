@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C945A75B1D52D0F80078C4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945A75A1D52D0F80078C4CC /* AppDelegate.swift */; };
+		C945A75D1D52D0F80078C4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945A75C1D52D0F80078C4CC /* ViewController.swift */; };
+		C945A7601D52D0F80078C4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C945A75E1D52D0F80078C4CC /* Main.storyboard */; };
+		C945A7621D52D0F80078C4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C945A7611D52D0F80078C4CC /* Assets.xcassets */; };
+		C945A7651D52D0F80078C4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C945A7631D52D0F80078C4CC /* LaunchScreen.storyboard */; };
+		C945A7711D52D1F50078C4CC /* AZNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = C945A76E1D52D1F50078C4CC /* AZNotification.m */; };
+		C945A7721D52D1F50078C4CC /* AZNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C945A7701D52D1F50078C4CC /* AZNotificationView.m */; };
+		C945A7751D52D2480078C4CC /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C945A7741D52D2480078C4CC /* UIColor+Additions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C945A7571D52D0F80078C4CC /* UberRideCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberRideCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C945A75A1D52D0F80078C4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C945A75C1D52D0F80078C4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C945A75F1D52D0F80078C4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C945A7611D52D0F80078C4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C945A7641D52D0F80078C4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C945A7661D52D0F80078C4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C945A76C1D52D1F40078C4CC /* UberRideCall-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UberRideCall-Bridging-Header.h"; sourceTree = "<group>"; };
+		C945A76D1D52D1F50078C4CC /* AZNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZNotification.h; sourceTree = "<group>"; };
+		C945A76E1D52D1F50078C4CC /* AZNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZNotification.m; sourceTree = "<group>"; };
+		C945A76F1D52D1F50078C4CC /* AZNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZNotificationView.h; sourceTree = "<group>"; };
+		C945A7701D52D1F50078C4CC /* AZNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZNotificationView.m; sourceTree = "<group>"; };
+		C945A7731D52D2480078C4CC /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		C945A7741D52D2480078C4CC /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C945A7541D52D0F80078C4CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C945A74E1D52D0F80078C4CC = {
+			isa = PBXGroup;
+			children = (
+				C945A7591D52D0F80078C4CC /* UberRideCall */,
+				C945A7581D52D0F80078C4CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C945A7581D52D0F80078C4CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C945A7571D52D0F80078C4CC /* UberRideCall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C945A7591D52D0F80078C4CC /* UberRideCall */ = {
+			isa = PBXGroup;
+			children = (
+				C945A75A1D52D0F80078C4CC /* AppDelegate.swift */,
+				C945A75C1D52D0F80078C4CC /* ViewController.swift */,
+				C945A75E1D52D0F80078C4CC /* Main.storyboard */,
+				C945A7611D52D0F80078C4CC /* Assets.xcassets */,
+				C945A7631D52D0F80078C4CC /* LaunchScreen.storyboard */,
+				C945A7661D52D0F80078C4CC /* Info.plist */,
+				C945A76D1D52D1F50078C4CC /* AZNotification.h */,
+				C945A76E1D52D1F50078C4CC /* AZNotification.m */,
+				C945A76F1D52D1F50078C4CC /* AZNotificationView.h */,
+				C945A7701D52D1F50078C4CC /* AZNotificationView.m */,
+				C945A76C1D52D1F40078C4CC /* UberRideCall-Bridging-Header.h */,
+				C945A7731D52D2480078C4CC /* UIColor+Additions.h */,
+				C945A7741D52D2480078C4CC /* UIColor+Additions.m */,
+			);
+			path = UberRideCall;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C945A7561D52D0F80078C4CC /* UberRideCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C945A7691D52D0F80078C4CC /* Build configuration list for PBXNativeTarget "UberRideCall" */;
+			buildPhases = (
+				C945A7531D52D0F80078C4CC /* Sources */,
+				C945A7541D52D0F80078C4CC /* Frameworks */,
+				C945A7551D52D0F80078C4CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberRideCall;
+			productName = UberRideCall;
+			productReference = C945A7571D52D0F80078C4CC /* UberRideCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C945A74F1D52D0F80078C4CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Matt Milner";
+				TargetAttributes = {
+					C945A7561D52D0F80078C4CC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C945A7521D52D0F80078C4CC /* Build configuration list for PBXProject "UberRideCall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C945A74E1D52D0F80078C4CC;
+			productRefGroup = C945A7581D52D0F80078C4CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C945A7561D52D0F80078C4CC /* UberRideCall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C945A7551D52D0F80078C4CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C945A7651D52D0F80078C4CC /* LaunchScreen.storyboard in Resources */,
+				C945A7621D52D0F80078C4CC /* Assets.xcassets in Resources */,
+				C945A7601D52D0F80078C4CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C945A7531D52D0F80078C4CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C945A7751D52D2480078C4CC /* UIColor+Additions.m in Sources */,
+				C945A7721D52D1F50078C4CC /* AZNotificationView.m in Sources */,
+				C945A75D1D52D0F80078C4CC /* ViewController.swift in Sources */,
+				C945A7711D52D1F50078C4CC /* AZNotification.m in Sources */,
+				C945A75B1D52D0F80078C4CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C945A75E1D52D0F80078C4CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C945A75F1D52D0F80078C4CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C945A7631D52D0F80078C4CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C945A7641D52D0F80078C4CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C945A7671D52D0F80078C4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C945A7681D52D0F80078C4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C945A76A1D52D0F80078C4CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = UberRideCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.UberRideCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UberRideCall/UberRideCall-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C945A76B1D52D0F80078C4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = UberRideCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.UberRideCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UberRideCall/UberRideCall-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C945A7521D52D0F80078C4CC /* Build configuration list for PBXProject "UberRideCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C945A7671D52D0F80078C4CC /* Debug */,
+				C945A7681D52D0F80078C4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C945A7691D52D0F80078C4CC /* Build configuration list for PBXNativeTarget "UberRideCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C945A76A1D52D0F80078C4CC /* Debug */,
+				C945A76B1D52D0F80078C4CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C945A74F1D52D0F80078C4CC /* Project object */;
+}
