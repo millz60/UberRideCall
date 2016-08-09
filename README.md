@@ -8,6 +8,6 @@ set the appropriate time. After setting the time, press "Done" and the notificat
 for your Uber to arrive, the system will alert the user and display the date and time of the Uber's arrival.
 
 ###Screenshots
-<img src="https://github.com/millz60/UberRideCall/blob/master/UberRideCallScreenshot.jpeg?raw=true" width="250">
+<img src="https://github.com/millz60/UberRideCall/blob/master/UberRideCallScreenshot2.jpeg?raw=true" width="250">
 <img src="https://github.com/millz60/UberRideCall/blob/master/Simulator%20Screen%20Shot%20Aug%208,%202016,%208.08.55%20PM.png?raw=true" width="250">
 <img src="https://github.com/millz60/UberRideCall/blob/master/Simulator%20Screen%20Shot%20Aug%208,%202016,%208.09.04%20PM.png?raw=true" width="250">
